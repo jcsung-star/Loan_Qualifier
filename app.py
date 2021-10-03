@@ -130,7 +130,6 @@ def save_qualifying_loans(qualifying_loans):
     # Initially used text instead of confirm 
     
     answer = questionary.confirm("Do you want to save the file (Y or N):").ask() 
-    print(answer)
     
     if answer == False:
         sys.exit(f"Thank you for using this program: {csvpath}")

@@ -52,7 +52,6 @@ The monthly debt to income ratio is 0.01
 The loan to value ratio is 0.67.
 Found 9 qualifying loans
 ? Do you want to save the file (Y or N):  Yes
-True
 ? provide path/file: qualifying_loans.csv
 ```
 
