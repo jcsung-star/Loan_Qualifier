@@ -28,15 +28,33 @@ To use this application simply clone the repository and run the app.py
 Once you 
 
 When asked to enter a file path to a rate-sheet (.csv): imput data/daily_rate_sheet.csv
-You will then be asked a seires of questions listed below.
+You will then be asked a series of questions listed below.
 - What's your credit score?
 - What's your current amount of monthly debt?
 - What's your total monthly income?
 - What's your desired loan amount?
 - What's your home value?
-Once you answer these questions 
+Once you answer these questions you will be asked to save a file or not.
 
 ---
+
+## Example Values
+
+```
+python app.py
+? Enter a file path to a rate-sheet (.csv): data/daily_rate_sheet.csv
+? What's your credit score? 800
+? What's your current amount of monthly debt? 1000
+? What's your total monthly income? 100000
+? What's your desired loan amount? 400000
+? What's your home value? 600000
+The monthly debt to income ratio is 0.01
+The loan to value ratio is 0.67.
+Found 9 qualifying loans
+? Do you want to save the file (Y or N):  Yes
+True
+? provide path/file: qualifying_loans.csv
+```
 
 ## Contributors
 
