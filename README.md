@@ -1,4 +1,22 @@
-## Loan Qualifier
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&width=1000&height=200&section=header&text=Loan%20Qualifier%20&fontSize=30&fontColor=black)
+
+<!-- header is made with: https://github.com/kyechan99/capsule-render -->
+
+[John Sung](https://linkedin.com/in/john-sung-3675569) [<img src="https://cdn2.auth0.com/docs/media/connections/linkedin.png" alt="LinkedIn -  John Sung" width=15/>](https://linkedin.com/in/john-sung-3675569/)
+                                 
+---
+
+### Table of Contents
+
+* [Overview](#overview)
+* [Technoligies](#technologies)
+* [Installation Guide](#installation-guide)
+* [Usage](#usage)
+* [Example Values](#example-values)
+* [License](#license)  
+
+
+## Overview
 
 The user of this python project will be able to see qualifying loans from a list of lenders. The application works by taking in a `daily_rate_sheet.csv` of loan criteria from various loan providers, asking the user a number of questions to evaluate their loan eligibility, and then returning to them a list of qualifying loans. The project will also prompt and ask the user if they want to save the qualifying loans as a new csv file. 
 
@@ -35,12 +53,12 @@ You will then be asked a series of questions listed below.
 - What's your desired loan amount?
 - What's your home value?
 Once you answer these questions you will be asked to save a file or not.
-
 ---
 
 ## Example Values
 
-```
+---
+
 python app.py
 ? Enter a file path to a rate-sheet (.csv): data/daily_rate_sheet.csv
 ? What's your credit score? 800
@@ -53,11 +71,6 @@ The loan to value ratio is 0.67.
 Found 9 qualifying loans
 ? Do you want to save the file (Y or N):  Yes
 ? provide path/file: qualifying_loans.csv
-```
-
-## Contributors
-
-[John Sung](https://linkedin.com/in/john-sung-3675569) [<img src="https://cdn2.auth0.com/docs/media/connections/linkedin.png" alt="LinkedIn -  John Sung" width=15/>](https://linkedin.com/in/john-sung-3675569/)
 
 ---
 
