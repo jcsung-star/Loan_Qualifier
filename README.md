@@ -1,4 +1,4 @@
-## Project Loan Qualifier
+## Loan Qualifier
 
 The user of this python project will be able to see qualifying loans from a list of lenders. The application works by taking in a `daily_rate_sheet.csv` of loan criteria from various loan providers, asking the user a number of questions to evaluate their loan eligibility, and then returning to them a list of qualifying loans. The project will also prompt and ask the user if they want to save the qualifying loans as a new csv file. 
 
